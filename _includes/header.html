@@ -21,15 +21,19 @@
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
+                    {% comment %}
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
+                    {% endcomment %}
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#clients">Clients</a>
                     </li>
+                    {% comment %}
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
                     </li>
+                    {% endcomment %}
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -44,9 +48,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                {% comment %}<div class="intro-lead-in">Your partner for success.</div>{% endcomment %}
+                <div class="intro-heading">PC and Mobile Game consultant</div>
+                <a href="#services" class="page-scroll btn btn-xl">Show me what you can do</a>
             </div>
         </div>
     </header>
@@ -55,4 +59,3 @@
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
  -->
-

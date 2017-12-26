@@ -176,7 +176,10 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,cursive;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -640,6 +643,8 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    width: 250px;
+    height: 250px;
 }
 
 .team-member h4 {
@@ -650,6 +655,7 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+    text-align: center;
 }
 
 aside.clients img {
